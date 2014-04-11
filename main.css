@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Everything below this line by Dave Imbriaco, April 2014 */
+
+.pagecontainer {
+	min-height: 100%;
+}
+
+header {
+width: 100%;
+height: 200px;
+}
+
+.emailList {
+	float: left;
+}
+
+.logobox {
+	margin-right: auto;
+	margin-left: auto;
+	width: 900px;
+	height: 200px;
+}
+
+.loginbox {
+	float: right;
+}
+.mainarea {
+	width: 100%;
+	height: 800px;
+}
+
+.menubar {
+	width: 500px;
+	height: 30px;
+	margin:5px 0 5px 0;
+	display: inline;
+	text-align: center;
+}
+
+.menubar li {
+	display: inline;
+}
+
+.mainleft {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 100px 0 100px;
+	float: left;
+}
+
+.mainmid {
+	height: 100px;
+	width: 500px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 200px;
+	margin-right: 70px;
+}
+
+.mainright {
+	height: 460px;
+	width: 175px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 5px 200px 5px 10px; 
+	float: right;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.sidebox {
+	width: 300px;
+	height: 50px;
+	border: 1px solid black;
+}
+
+#tryfree {
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: green;
+	border: 1px solid green;
+	padding: 10px 115px 10px 115px;
+	border-radius: 5px;
+}
+
+#sucstor {
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: green;
+	border: 1px solid green;
+	padding: 10px 115px 10px 115px;
+	border-radius: 5px;
+}
+
+#contact {
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: green;
+	border: 1px solid green;
+	padding: 10px 115px 10px 115px;
+	border-radius: 5px;
+}
+
+.mainmidbottom {
+	display:block;
+	width: 500px;
+	height: 100px;
+	margin-top: 20px;
+	clear: both;
+}
+
+.newfeat1 {
+	display: inline-block;
+}
+
+.newfeat2 {
+	display: inline-block;
+}
+
+footer {
+
+}
