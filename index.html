@@ -6,21 +6,29 @@
 <body>
 <div class="pagecontainer">     <!-- Page container div -->
 	<header> <!-- Page header -->
-		<div class="emailList">
+		<div class="emailList"> <!-- email list div -->
 			<form>
+				<fieldset>
+					<legend>Sign Up For Our Email List</legend>
 				<input type="text" name="@emailist" value="Email Address">
+				</fieldset>
 			</form>
 		</div>
 
-		<div class="logobox">
+		<div class="logobox"> <!-- logo div -->
 			<img src="images/header.jpg">
 		</div>
-		<!-- <div class="loginbox">
+		<div class="loginbox"> <!-- login div -->
 			<form>
-				<input type="text" name="login" value="User Name">
-				<input type="text" name="password" value"Password">
+			<fieldset style="border:1px solid">
+				<legend>Registered Users Log In</legend>
+					<ul>
+						<li>User Name:<input type="text" name="login" size="25px"></li>
+						<li>Password:     <input type="text" name="password" size="25px"></li>
+					</ul>
+			</fieldset>
 			</form>
-		</div> -->
+		</div>
 	</header>
 	<div class="menubar">
 			<ul>
@@ -43,41 +51,75 @@
 				<li><a href="#"><img src="images/shareicon.jpg"></a></li>
 			</ul>
 		</div>
-		<div class="mainmid"> <!-- This is the container for the left/middle part of the page -->
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		<div class="mainmid"> <!-- This is the container for the middle part of the page -->
+			<div class="midpcontainer">
+			<p style="text-align:justify;font-size:18px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p style="text-align:justify;font-size:18px;margin-top:10px">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			</div>
+		<div class="mainmidbottom">
+			<div class="newfeat">
+				<a class="titlelink" href="#">New Feature 1</a>
+				<p class="newfeatpara">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.!</p>
+			</div>
+			<div class="newfeat">
+				<a class="titlelink" href="#">New Feature 2</a>
+				<p class="newfeatpara">Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
+			</div>
+		</div>
+		<div class="anothermid">
+			<div class="newfeat">
+				<a class="titlelink" href="#">Additional Thing</a>
+				<p class="newfeatpara">No tota possit graeco mel, utroque interpretaris usu at. Vix et reque choro mentitum. Eu probo invenire vel, nam nisl libris et. Ne qui dolor inermis, nisl hinc iuvaret ut duo. Et meis similique signiferumque ius, atqui sonet vocent ne est.</p>
+			</div>
+			<div class="newfeat">
+				<a class="titlelink" href="#">Additional Thing</a>
+				<p class="newfeatpara">Ad iriure integre invenire duo, ei eam nostrud evertitur consectetuer. Integre erroribus intellegat has et. Id vim eius scaevola partiendo, qui mundi labores temporibus id, vim vero propriae antiopam at.</p>
+			</div>
+		</div><!-- error is somewhere around here -->
 		</div>
 		<div class="mainright"> <!-- Same here for the right -->
 			<div class="sidebox">
 			<ul>
+				<li><a id="enroll" href="#">Enroll Now!</a></li>
 				<li><a id="tryfree" href="#">Try For Free!</a>
-				</div>
 				<li><a id="sucstor" href="#">Success Stories</a></li>
 				<li><a id="contact" href="#">Contact Us</a></li>
+				<li><div id="imageplaceholder"><p id="imgplaceholdertext">Place an image here!</p></div>
 			</ul>
-		</div>
-		<div class="mainmidbottom">
-			<div class="newfeat1">
-				<a class="leftnewfeat" href="#">New Feature 1</a>
-				<p class="newfeatpara">This new MLAP feature is awesome!</p>
-			</div>
-			<div class="newfeat2">
-				<a class="newfeat2" href="#">New Feature 2</a>
-				<p class="newfeatpara">This new MLAP feature is also awesome!</p>
 			</div>
 		</div>
+		<div class="push"></div> <!-- I use this as part of a larger mechanism to keep the footer pinned to the bottom of the page -->
 	</section>
+</div>
 	<footer>
-		<div>	
-			<ul class="footerOptions">
-				<li></li>
+		<div class="footer">	
+			<ul>
+				<li><a class="footerlinks" href="#">About MLAP</a></li>
+				<li><a class="footerlinks" href="#">Our Approach</a></li>
+				<li><a class="footerlinks" href="#">Testimonials</a></li>
+				<li><a class="footerlinks" href="#">Jobs</a></li>
+				<li><a class="footerlinks" href="#">For Students</a></li>
+				<li><a class="footerlinks" href="#">For Parents</a></li>
+				<li><a class="footerlinks" href="#">For Educators</a></li>
+				<li><a class="footerlinks" href="#">Site Map</a></li>
+				<li><a class="footerlinks" href="#">Terms of Service</a></li>
+				<li><a class="footerlinks" href="#">Privacy Policy</a></li>
+				<li><a class="footerlinks" href="#">Contact Us</a></li>
 			</ul>
 		</div>	
 	</footer>
-</div>
+
 </body>
 </html>
